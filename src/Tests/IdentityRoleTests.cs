@@ -35,8 +35,7 @@
 
 			var role = new IdentityRole(name);
 
-			//Expect(role.Name, Is.EqualTo(name));
-			Expect(role.Name, Is.EqualTo("Not george"));
+			Expect(role.Name, Is.EqualTo(name));
 		}
 
 		[Test]
