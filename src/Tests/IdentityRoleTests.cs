@@ -35,7 +35,6 @@
 
 			var role = new IdentityRole(name);
 
-			Expect(role.Name, Is.EqualTo("This is a test bug"));
 			Expect(role.Name, Is.EqualTo(name));
 		}
 
